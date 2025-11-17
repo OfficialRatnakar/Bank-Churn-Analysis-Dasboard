@@ -1,108 +1,161 @@
-📊 Bank Customer Churn Analysis – SQL + Power BI
+# 🏦 Bank Customer Churn Analysis – SQL + Power BI
 
-A complete end-to-end churn analytics project combining SQL data modeling and Power BI dashboarding to identify churn drivers, high-risk customers, and retention opportunities.
+### **End-to-End Churn Analytics | Data Modeling + Dashboard Storytelling | By Vishal Ratnakar**
 
-📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Skills-SQL-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tools-Power%20BI-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Banking%20Analytics-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Churn%20Prediction%20%7C%20Segmentation-purple?style=for-the-badge" />
+</p>
 
-This project analyzes bank customer churn using SQL for data preparation and Power BI for visual storytelling.
-The objective is to understand why customers leave, segment high-risk groups, and provide data-driven recommendations for customer retention.
+---
 
-🔥 Project Workflow
+## 📌 **Project Overview**
 
-Designed a fact table and star schema using SQL.
+This project focuses on understanding **why bank customers churn** by leveraging SQL for **data modeling & metric building** and Power BI for **interactive dashboards**.
+The goal is to uncover churn drivers, segment customers by risk level, and deliver insights that guide **customer retention strategies**.
 
-Built SQL queries to calculate churn metrics, customer segmentation, and outlier detection.
+### 🔥 Highlights
 
-Created DAX measures for KPIs such as Churn Rate, Avg Balance, Avg Tenure, and Active Customer Rate.
+* Built a **fact table** using SQL from multiple source tables
+* Designed a **star schema** for efficient querying
+* Created **DAX measures** for KPIs such as *Churn Rate, Avg Balance, Avg Tenure*
+* Developed a **4-page Power BI dashboard** for decision-makers
+* Identified high-risk customer groups using SQL + BI
 
-Built a 4-page interactive Power BI dashboard to present insights.
+---
 
-🗂 Dataset
+## 🗂 **Dataset Overview**
 
-The dataset is composed of 7 tables, used to build dimensional modeling:
+The project uses **7 relational tables**, enabling rich, multi-angle analytics:
 
-Table Name	Description
-Bank_Churn	Core customer attributes (tenure, balance, churn flag).
-CustomerInfo	Customer demographics – age, salary, DOJ, gender ID, geography ID.
-Gender	Gender categories.
-Geography	Regions (France, Spain, Germany).
-CreditCard	Credit card type details.
-ActiveCustomer	Account activity status.
-ExitCustomer	Churn reasons.
-🏗 Data Modeling
+| Table              | Description                                                      |
+| ------------------ | ---------------------------------------------------------------- |
+| **Bank_Churn**     | Core churn attributes: balance, credit score, tenure, churn flag |
+| **CustomerInfo**   | Demographics: gender, age, salary, geography, DOJ                |
+| **Gender**         | Gender categories                                                |
+| **Geography**      | Regions: France, Spain, Germany                                  |
+| **CreditCard**     | Card type information                                            |
+| **ActiveCustomer** | Account activity levels                                          |
+| **ExitCustomer**   | Reasons for customer churn                                       |
 
-Designed a star schema centered around a consolidated fact table:
-fact_bank_churn
+---
 
-Merged customer demographics, geography, gender, credit card, and churn details.
+## 🏗 **Data Modeling**
 
-Ensured optimized relational joins for efficient Power BI querying.
+### ⭐ Star Schema (Dimensional Model)
 
-📊 Dashboard Pages
-1️⃣ Executive Overview
+Built a consolidated fact table:
 
-KPIs: Avg Age, Avg Balance, Avg Tenure, Salary, Churn Rate
+### **`fact_bank_churn`**
 
-High-level insights for stakeholders
-Screenshot:
-https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png
+This fact table integrates:
+✔ Customer demographics
+✔ Geography
+✔ Credit card info
+✔ Churn reason
+✔ Account activity
+✔ Financial details
 
-2️⃣ Customer Behavior
+This schema enabled fast Power BI reporting and flexible KPI calculations.
 
-Churn by age group, tenure, products, and account activity
+---
 
-Key Insight: Highest churn among customers aged 30–39 and those holding multiple products
-Screenshot:
-https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png
+## 📊 **Dashboard Pages**
 
-3️⃣ Geography & Demographics
+### **1️⃣ Executive Overview**
 
-Churn by country, gender, and customer profile segments
+* KPIs: **Avg Age**, **Avg Balance**, **Avg Tenure**, **Avg Salary**, **Churn Rate**
+* High-level snapshot for leadership
+  📸 Screenshot:
+  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png)
 
-Insight: Germany shows the highest churn rate
-Screenshot:
-https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png
+---
 
-4️⃣ Risk & Predictions
+### **2️⃣ Customer Behavior**
 
-Outlier detection in balance, credit score, and tenure
+* Churn by **age group**, **tenure**, **products**, **activity status**
+* Insight: Highest churn among **30–39 age group** & **multi-product customers**
+  📸 Screenshot:
+  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png)
 
-High-risk customer segmentation for targeted retention
-Screenshot:
-https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png
+---
 
-📌 Key Insights
+### **3️⃣ Geography & Demographics**
 
-Overall Churn Rate: 20.37%
+* Churn segmented by **region** and **gender**
+* Germany stands out as the **highest-risk market**
+  📸 Screenshot:
+  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png)
 
-Germany has the highest churn rate among all regions.
+---
 
-Customers with low credit scores are more likely to churn.
+### **4️⃣ Risk & Predictions**
 
-Credit card ownership does not significantly affect churn.
+* Outlier analysis for **balance**, **credit score**, **tenure**
+* High-risk customer groups identified using SQL logic
+  📸 Screenshot:
+  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png)
 
-Female customers churn slightly more than male customers.
+---
 
-Customers with 3–6 years tenure are at the highest churn risk.
+## 📌 **Key Insights**
 
-🚀 Tools & Technologies Used
+* **Churn Rate:** **20.37%** across all customers
+* **Germany** = highest churn geography
+* **Low credit score** strongly correlates with churn
+* **Female customers** churn slightly more than males
+* Customers with **3–6 years tenure** are at highest churn risk
+* Multiple products ≠ lower churn — in fact, churn increases
+* Credit card ownership has **minimal influence** on churn
 
-SQL (MySQL Workbench) → star schema, fact table creation, data modeling
+---
 
-Power BI → interactive dashboard, DAX measures, KPI design
+## 🚀 **Tools & Technologies**
 
-Excel → initial data cleaning and preparation
+* **SQL (MySQL Workbench)** → Data modeling, fact table creation, churn queries
+* **Power BI** → Dashboard creation, DAX measures, KPI design
+* **Excel** → Data preparation & validation
 
-🎯 Business Impact
+---
 
-This churn analysis helps the bank to:
+## 🎯 **Business Impact**
 
-Identify high-value at-risk customers
+This project helps the bank:
 
-Detect behavioral churn patterns
+* Identify **high-risk, high-value** customers
+* Build **targeted retention campaigns**
+* Reduce revenue leakage by addressing churn drivers
+* Improve user experience through data-backed decisions
+* Optimize marketing spend on the right customer segments
 
-Build targeted retention campaigns
+---
 
-Improve customer satisfaction & reduce potential revenue loss
+## 📦 **Repository Structure**
 
-Prioritize product improvements, customer support interventions, and risk management strategies
+```
+├── README.md
+├── Bank-Churn-Analysis-Dasboard.pbix (if uploaded)
+├── SQL Queries/
+│   ├── data_modeling.sql
+│   ├── churn_metrics.sql
+│   ├── segmentation_queries.sql
+│   ├── outlier_detection.sql
+│   └── kpi_queries.sql
+└── assets/
+    ├── dashboard_screenshots/
+```
+
+---
+
+## 👨‍💻 **Author**
+
+**Vishal Ratnakar**
+SQL Developer | Power BI Analyst | Data Storyteller
+
+---
+
+## ⭐ **If you found this project useful, please consider starring the repository!**
+
+
