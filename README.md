@@ -69,7 +69,7 @@ This schema enabled fast Power BI reporting and flexible KPI calculations.
 * KPIs: **Avg Age**, **Avg Balance**, **Avg Tenure**, **Avg Salary**, **Churn Rate**
 * High-level snapshot for leadership
   📸 Screenshot:
-  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png)
+  [https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png](https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png)
 
 ---
 
@@ -78,7 +78,7 @@ This schema enabled fast Power BI reporting and flexible KPI calculations.
 * Churn by **age group**, **tenure**, **products**, **activity status**
 * Insight: Highest churn among **30–39 age group** & **multi-product customers**
   📸 Screenshot:
-  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png)
+  [https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png](https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png)
 
 ---
 
@@ -87,7 +87,7 @@ This schema enabled fast Power BI reporting and flexible KPI calculations.
 * Churn segmented by **region** and **gender**
 * Germany stands out as the **highest-risk market**
   📸 Screenshot:
-  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png)
+  [https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png](https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png)
 
 ---
 
@@ -96,7 +96,7 @@ This schema enabled fast Power BI reporting and flexible KPI calculations.
 * Outlier analysis for **balance**, **credit score**, **tenure**
 * High-risk customer groups identified using SQL logic
   📸 Screenshot:
-  [https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png](https://github.com/Shobnam/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png)
+  [https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png](https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png)
 
 ---
 
