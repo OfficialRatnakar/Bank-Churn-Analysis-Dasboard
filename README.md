@@ -131,7 +131,10 @@ This project helps the bank:
 * Optimize marketing spend on the right customer segments
 
 ---
-
+https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_risk_and_predictions.png
+https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_index.png
+https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_geography_and_demographic.png
+https://github.com/OfficialRatnakar/Bank-Churn-Analysis-Dasboard/blob/main/Bank_churn_analysis_customer_behavior.png
 ## 📦 **Repository Structure**
 
 ```
